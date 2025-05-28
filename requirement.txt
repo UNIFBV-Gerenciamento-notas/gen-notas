@@ -1,0 +1,2 @@
+banco de dados 'pip install SQLAlchemy'
+ativar ambiente virtual '.venv\Scripts\Activate.ps1'
