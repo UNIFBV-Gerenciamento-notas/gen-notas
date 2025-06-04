@@ -234,14 +234,14 @@ def ao_selecionar_item_na_lista(event_qualquer):
 if __name__ == "__main__":
 
     try:
-        criar_banco() #
+        criar_banco()
     except Exception as e:
         messagebox.showerror("Erro Crítico de Banco", f"Não foi possível criar o banco de dados.\nO programa não pode continuar.\nDetalhe: {e}")
         sys.exit(1)
 
     janela = tk.Tk()
-    janela.title("Sistema de Notas (Versão Simples)")
-    janela.geometry("600x550") # Tamanho da janela
+    janela.title("Sistema de Notas")
+    janela.geometry("600x550")
 
     frame_entradas = tk.Frame(janela, pady=10)
     frame_entradas.pack(fill=tk.X)
